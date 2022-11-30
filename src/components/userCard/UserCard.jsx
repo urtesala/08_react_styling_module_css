@@ -21,7 +21,7 @@ function UserCard(props) {
   const { image, lastName, firstName, age, height } = userData;
   return (
     <div className={css.card}>
-      <img src={image} alt='user' />
+      <img className={`border ${css.image}`} src={image} alt='user' />
       <h2 className={css.title}>
         {firstName} {lastName}
       </h2>
