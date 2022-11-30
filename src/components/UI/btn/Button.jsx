@@ -11,8 +11,10 @@ function Button(props) {
   // jei gavim props secodary, tai prideam klase .secondary
   // aprasyti klase .secondary - bacground color coral
 
+  const secondaryClass = props.secondary ? css.secondary : '';
+
   return (
-    <button className={`${css.btn} ${largeBtn} ${smallBtn}`}>
+    <button className={`${css.btn} ${largeBtn} ${smallBtn} ${secondaryClass}`}>
       {props.children}
     </button>
   );

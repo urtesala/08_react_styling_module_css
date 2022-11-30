@@ -8,6 +8,7 @@ function App() {
   return (
     <div className='App container'>
       <h1>React</h1>
+      <Button secondary>I am secondary btn</Button>
       <Button>Read more</Button>
       <Button size='lg'>Read more twice</Button>
 
