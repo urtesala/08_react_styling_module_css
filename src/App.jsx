@@ -2,11 +2,14 @@ import './App.css';
 import Card from './components/card/Card';
 import UserCard from './components/userCard/UserCard';
 import Grid from './components/UI/grid/Grid';
+import Button from './components/UI/btn/Button';
 
 function App() {
   return (
     <div className='App container'>
       <h1>React</h1>
+      <Button>Read more</Button>
+      <Button size='lg'>Read more twice</Button>
 
       <Grid>
         <Card />
